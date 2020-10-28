@@ -1,0 +1,41 @@
+ x link our files 
+ - build the html of the site 
+
+
+ - access the library api
+    - we can hardcode the category first
+
+    http://thedomain.com/this/is/the/path?foo=bar
+    pr.cl    domain         path            query
+
+    x postman http://openlibrary.org/subjects/love.json
+    x dig out the cover, title, author
+    x create the fetch
+        x write a function that takes in a string and runs the api request 
+
+ x function that returns the random book 
+    x is ebooks_count the real count? if so use it 
+    x works.length as the max in our random function 
+    x Math.floor(Math.random() * works.length)
+    x works[randomIndex]
+
+
+ - present the info form the api on the dom 
+    - book cover, author, title
+    - build helper functions to generate the elements, and then append them
+    -get the elements that are in the html that we'll append to    
+ 
+
+
+ - wire up the input later
+    -grab the input via a query selector and get its text
+    -addEvenListener('click', input)
+    -pass it into the search 
+    
+  
+ 
+ 
+
+
+
+
